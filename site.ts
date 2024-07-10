@@ -23,7 +23,13 @@ export const links: LinkItem[] = [
     icon: PiUsers,
   },
   { id: 1, name: "Solutions", to: "/#", icon: PiLightbulbFilament },
-  { id: 2, name: "Blog", to: "/#", icon: PiArticle, external: PiArrowUpRight },
+  {
+    id: 2,
+    name: "Blog",
+    to: "https://www.musabbirsagar.com/articles",
+    icon: PiArticle,
+    external: PiArrowUpRight,
+  },
 
   {
     id: 3,
