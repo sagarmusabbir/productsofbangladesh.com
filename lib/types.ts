@@ -5,6 +5,7 @@ export interface LinkItem {
   name: string;
   to: string;
   icon: any;
+  external?: any;
 }
 
 export type IconSvgProps = SVGProps<SVGSVGElement> & {

@@ -4,7 +4,7 @@ import "./globals.css";
 import { HeaderNavigation } from "@/components/ui/header";
 import { FooterMain } from "@/components/ui/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   title: {
@@ -12,6 +12,10 @@ export const metadata: Metadata = {
     default:
       "Best Platform for sourcing Made in Bangladesh Products | Products of Bangladesh",
   },
+  alternates: {
+    canonical: "/",
+  },
+
   description:
     "Products of Bangladesh connects global sellers and brands with top manufacturers and suppliers from bangladesh, specializing in sourcing high-quality products made in Bangladesh for seamless sourcing experience.",
   // canonical: "https://productsofbangladesh.com/",
@@ -21,6 +25,7 @@ export const metadata: Metadata = {
       "Best Platform for sourcing Made in Bangladesh Products | Products of Bangladesh",
     description:
       "Products of Bangladesh connects global sellers and brands with top manufacturers and suppliers from bangladesh, specializing in sourcing high-quality products made in Bangladesh for seamless sourcing experience.",
+    siteName: "Products of Bangladesh",
     type: "website",
     images: [
       {
@@ -30,7 +35,6 @@ export const metadata: Metadata = {
         height: 600,
       },
     ],
-    // site_name: "Products of Bangladesh",
   },
   // twitter: {
   //   handle: "@handle",
@@ -46,8 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head></head>
-      <body className={inter.className}>
+      <body className={`${inter.className} antialiased`}>
         <HeaderNavigation />
         {children}
         <FooterMain />

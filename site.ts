@@ -4,33 +4,32 @@ import {
   PiArrowDownRight,
   PiArrowUpRight,
   PiArrowUpRightFill,
+  PiArticle,
   PiHouse,
   PiHouseBold,
+  PiLightbulbFilament,
+  PiUser,
+  PiUsers,
+  PiUserSound,
 } from "react-icons/pi";
 import { LinkItem } from "./lib/types";
 import { SiGithub } from "react-icons/si";
 
 export const links: LinkItem[] = [
-  { id: 0, name: "Home", to: "/", icon: PiHouse },
   {
-    id: 1,
-    name: "About",
+    id: 0,
+    name: "About Us",
     to: "/#",
-    icon: PiArrowDown,
+    icon: PiUsers,
   },
-  { id: 2, name: "Company", to: "/#", icon: PiArrowDown },
-  { id: 3, name: "Products", to: "/#", icon: PiArrowDown },
+  { id: 1, name: "Solutions", to: "/#", icon: PiLightbulbFilament },
+  { id: 2, name: "Blog", to: "/#", icon: PiArticle, external: PiArrowUpRight },
 
   {
-    id: 4,
-    name: "Projects",
-    icon: PiArrowUpRight,
-    to: "https://github.com/sagarmusabbir?tab=repositories",
-  },
-  {
-    id: 5,
+    id: 3,
     name: "Contact",
-    icon: PiArrowUpRight,
-    to: "https://github.com/sagarmusabbir",
+    icon: PiUserSound,
+
+    to: "/#",
   },
 ];
