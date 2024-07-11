@@ -19,7 +19,7 @@ import {
   PiArrowUpRightFill,
   PiDownloadBold,
 } from "react-icons/pi";
-import { Bar, Moon, Sun } from "../icons";
+import { Bar, Logo, Moon, Sun } from "../icons";
 import Image from "next/image";
 
 export function HeaderNavigation() {
@@ -27,14 +27,15 @@ export function HeaderNavigation() {
     <Navbar>
       <NavbarBrand href="/">
         {/* <Image
-          src="/logo.svg"
+          src="/drawing.svg"
           className="mr-2"
           alt="products-of-bangladesh"
-          width={24}
-          height={24}
+          width={129}
+          height={32}
         /> */}
+        <Logo className="mr-2" />
 
-        <pre className="self-center whitespace-nowrap text-lg/3 font-semibold dark:text-white tracking-wider ">
+        {/* <pre className="self-center whitespace-nowrap text-lg/3 font-semibold dark:text-white tracking-wider ">
           PRODUCTS
           <br />
           <span className="text-[0.5rem] font-thin  italic leading-none  tracking-tighter">
@@ -43,7 +44,7 @@ export function HeaderNavigation() {
           <span className="text-sm/none  font-light bg-gradient-to-r from-green-600 from-30% via-red-600 via-50% to-green-600 to-70% text-transparent bg-clip-text tracking-tight">
             BANGLADESH
           </span>
-        </pre>
+        </pre> */}
       </NavbarBrand>
       <div className="flex md:order-2 gap-2">
         <DarkThemeToggle iconLight={Moon} iconDark={Sun} />

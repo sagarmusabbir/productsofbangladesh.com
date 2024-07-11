@@ -115,18 +115,176 @@ export const Sun: React.FC<IconBaseProps> = ({
   </svg>
 );
 
-export const Logo: React.FC<IconSvgProps> = ({
-  size = 24,
+export const Logo: React.FC<IconBaseProps> = ({
+  size = 36,
   width,
   height,
   ...props
 }) => (
-  <PiGarage
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
     aria-hidden="true"
-    height={size || height}
-    viewBox="0 0 24 24"
-    width={size || width}
+    //height={size || height}
+    //stroke="currentColor"
+    //width={size || width}
     {...props}
     fill="none"
-  ></PiGarage>
+    //viewBox="0 0 25 25"
+
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    width={129}
+    height={32}
+    viewBox="20 20 651.183 161.336"
+    {...props}
+
+    // enableBackground="new 0 0 52 52"
+    // xmlSpace="preserve"
+  >
+    <defs>
+      <linearGradient id="a">
+        <stop
+          offset={0.281}
+          style={{
+            stopColor: "#006a4d",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.503}
+          style={{
+            stopColor: "#f4263f",
+            stopOpacity: 0.80000001,
+          }}
+        />
+        <stop
+          offset={0.728}
+          style={{
+            stopColor: "#006a4d",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        xlinkHref="#a"
+        id="b"
+        x1={137.058}
+        x2={674.384}
+        y1={158.944}
+        y2={158.944}
+        gradientUnits="userSpaceOnUse"
+      />
+    </defs>
+    <text
+      xmlSpace="preserve"
+      x={18.58}
+      y={112.783}
+      className="fill-gray-800 dark:fill-gray-200 "
+      style={{
+        fontSize: "118.618px",
+        fontFamily: "&quot",
+
+        //fill: "#1f2229",
+        fillOpacity: 1,
+        fillRule: "nonzero",
+        strokeWidth: 0,
+        paintOrder: "stroke fill markers",
+      }}
+      transform="translate(-7.21 -6.426)"
+    >
+      <tspan
+        x={18.58}
+        y={112.783}
+        className=" fill-gray-800 dark:fill-gray-200 "
+        style={{
+          fontStyle: "normal",
+          fontVariant: "normal",
+          fontWeight: 700,
+          fontStretch: "normal",
+          fontFamily: "Arial",
+
+          //fill: "#1f2229",
+          fillOpacity: 1,
+          fillRule: "nonzero",
+          strokeWidth: 0,
+        }}
+      >
+        {"PRODUCTS"}
+      </tspan>
+    </text>
+    <text
+      xmlSpace="preserve"
+      x={131.359}
+      y={186.774}
+      style={{
+        fontSize: "77.8084px",
+        fontFamily: "&quot",
+
+        fill: "url(#b)",
+        fillOpacity: 1,
+        fillRule: "nonzero",
+        strokeWidth: 0,
+        paintOrder: "stroke fill markers",
+      }}
+      transform="translate(-7.21 -6.426)"
+    >
+      <tspan
+        x={131.359}
+        y={186.774}
+        style={{
+          fontStyle: "normal",
+          fontVariant: "normal",
+          fontWeight: 700,
+          fontStretch: "normal",
+          fontFamily: "Arial",
+
+          fill: "url(#b)",
+          fillOpacity: 1,
+          fillRule: "nonzero",
+          strokeWidth: 0,
+        }}
+      >
+        {"BANGLADESH"}
+      </tspan>
+    </text>
+    <text
+      xmlSpace="preserve"
+      x={25.038}
+      y={180.092}
+      style={{
+        fontStyle: "italic",
+        fontVariant: "normal",
+        fontWeight: 400,
+        fontStretch: "normal",
+        fontSize: "63.8895px",
+        fontFamily: "Arial",
+
+        fill: "#1f2229",
+        fillOpacity: 1,
+        fillRule: "nonzero",
+        strokeWidth: 0,
+        paintOrder: "stroke fill markers",
+      }}
+      transform="translate(-7.21 -6.426)"
+    >
+      <tspan
+        className=" fill-gray-800 dark:fill-gray-200"
+        x={25.038}
+        y={180.092}
+        style={{
+          fontStyle: "italic",
+          fontVariant: "normal",
+          fontWeight: 400,
+          fontStretch: "normal",
+          fontSize: "63.8895px",
+
+          //fill: "#1f2229",
+          fillOpacity: 1,
+          fillRule: "nonzero",
+          strokeWidth: 0,
+        }}
+      >
+        {"OF"}
+      </tspan>
+    </text>
+  </svg>
 );

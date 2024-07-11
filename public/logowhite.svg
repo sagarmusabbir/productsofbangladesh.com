@@ -2,11 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="126.01538mm"
-   height="31.221334mm"
-   viewBox="0 0 126.01538 31.221334"
+   width="126.01547mm"
+   height="31.221348mm"
+   viewBox="0 0 126.01547 31.221348"
    version="1.1"
    id="svg1"
+   inkscape:export-filename="logowhite.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -33,7 +36,7 @@
        fx="405.72119"
        fy="158.94414"
        r="268.66315"
-       gradientTransform="matrix(1,0,0,0.10726154,0,141.89554)"
+       gradientTransform="matrix(0.1935177,0,0,0.02075701,-4.8315666,22.734819)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        id="linearGradient5"
@@ -56,42 +59,41 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-0.43397706,-0.3893329)">
+     transform="translate(-0.43397838,-0.38931973)">
     <g
-       id="g13"
-       transform="matrix(0.1935177,0,0,0.1935177,-4.8315666,-4.7244797)">
+       id="g1">
       <text
          xml:space="preserve"
-         style="font-size:118.618px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0;paint-order:stroke fill markers"
-         x="18.5797"
-         y="112.7827"
+         style="font-size:22.9547px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke-width:0;paint-order:stroke fill markers"
+         x="-1.2360657"
+         y="17.100969"
          id="text2"><tspan
            sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0"
-           x="18.5797"
-           y="112.7827"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke-width:0"
+           x="-1.2360657"
+           y="17.100969"
            id="tspan3">PRODUCTS</tspan></text>
       <text
          xml:space="preserve"
-         style="font-size:77.8084px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';fill:url(#radialGradient7);fill-opacity:1;fill-rule:nonzero;stroke-width:0;paint-order:stroke fill markers"
-         x="131.35919"
-         y="186.77356"
+         style="font-size:15.0573px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';fill:url(#radialGradient7);fill-opacity:1;fill-rule:nonzero;stroke-width:0;paint-order:stroke fill markers"
+         x="20.588762"
+         y="31.41951"
          id="text2-4"><tspan
            sodipodi:role="line"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';fill:url(#radialGradient7);fill-opacity:1;fill-rule:nonzero;stroke-width:0"
-           x="131.35919"
-           y="186.77356"
+           x="20.588762"
+           y="31.41951"
            id="tspan3-4">BANGLADESH</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.8895px;font-family:Arial;-inkscape-font-specification:'Arial Italic';fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0;paint-order:stroke fill markers"
-         x="31.916998"
-         y="175.32968"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.3637px;font-family:Arial;-inkscape-font-specification:'Arial Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke-width:0;paint-order:stroke fill markers"
+         x="1.3449374"
+         y="29.204918"
          id="text2-8"><tspan
            sodipodi:role="line"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:63.8895px;font-family:Arial;-inkscape-font-specification:'Arial Italic';fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke-width:0"
-           x="31.916998"
-           y="175.32968"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.3637px;font-family:Arial;-inkscape-font-specification:'Arial Italic';fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke-width:0"
+           x="1.3449374"
+           y="29.204918"
            id="tspan3-1">OF</tspan></text>
     </g>
   </g>
