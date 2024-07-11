@@ -19,8 +19,8 @@ export function FooterMain() {
             <Footer.Brand
               alt="Nomad Starter"
               href="/"
-              name="Nomad Starter"
-              src="/logo.svg"
+              //name="Nomad Starter"
+              src="/logowhite.svg"
             />
           </div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-6 md:grid-cols-3">

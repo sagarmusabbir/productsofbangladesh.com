@@ -54,6 +54,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
         <HeaderNavigation />
         {children}
+
         <FooterMain />
       </body>
     </html>

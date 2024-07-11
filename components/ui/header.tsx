@@ -1,6 +1,7 @@
 import {
   Button,
   DarkThemeToggle,
+  Drawer,
   Navbar,
   NavbarBrand,
   NavbarCollapse,
@@ -21,6 +22,8 @@ import {
 } from "react-icons/pi";
 import { Bar, Logo, Moon, Sun } from "../icons";
 import Image from "next/image";
+import { useState } from "react";
+import { Contact } from "./contact";
 
 export function HeaderNavigation() {
   return (
@@ -51,9 +54,9 @@ export function HeaderNavigation() {
 
         <Link href="https://wa.me/8801765692886" className="hidden md:block">
           <Button color="dark" size="sm">
-            Chat
-            <SiWhatsapp className="ml-2 self-center w-4 h-4" />
-            <PiArrowUpRight className="ml-1 self-start w-2 h-2" />
+            Connect
+            <SiWhatsapp className="ml-2 self-center w-3 h-3" />
+            {/* <PiArrowUpRight className="ml-1 self-start w-2 h-2" /> */}
           </Button>
         </Link>
 
@@ -65,9 +68,9 @@ export function HeaderNavigation() {
         <div className="md:hidden my-4 ">
           <Link href="https://wa.me/8801765692886">
             <Button color="dark" size="sm" className="w-full">
-              Chat
-              <SiWhatsapp className=" self-center w-4 h-4 ml-2" />
-              <PiArrowUpRight className="self-start w-2 h-2 ml-1" />
+              Connect
+              <SiWhatsapp className=" self-center w-3 h-3 ml-2" />
+              {/* <PiArrowUpRight className="self-start w-2 h-2 ml-1" /> */}
             </Button>
           </Link>
         </div>
