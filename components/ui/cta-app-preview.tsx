@@ -39,7 +39,7 @@ export function AppScreenshotWithCTAsHero() {
         </div>
         <Image
           className="z-10 mx-auto mb-5 rounded-lg border border-gray-200 shadow-xl dark:border-gray-600 lg:mb-8"
-          src="/cover.png"
+          src="/oldcover.png"
           alt="dashboard overview"
           width={492}
           height={363}
