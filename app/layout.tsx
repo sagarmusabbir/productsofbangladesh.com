@@ -13,12 +13,12 @@ export const metadata: Metadata = {
       "Best Platform for sourcing Made in Bangladesh Products | Products of Bangladesh",
   },
   alternates: {
-    canonical: "/",
+    canonical: "https://productsofbangladesh.com/",
   },
 
   description:
     "Products of Bangladesh connects global sellers and brands with top manufacturers and suppliers from bangladesh, specializing in sourcing high-quality products made in Bangladesh for seamless sourcing experience.",
-  // canonical: "https://productsofbangladesh.com/",
+
   openGraph: {
     url: "https://productsofbangladesh.com/",
     title:
