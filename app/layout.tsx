@@ -4,6 +4,32 @@ import "./globals.css";
 import { HeaderNavigation } from "@/components/ui/header";
 import { FooterMain } from "@/components/ui/footer";
 
+import { WebPage, WithContext } from "schema-dts";
+import { ThemeModeScript } from "flowbite-react";
+
+export const jsonLd: WithContext<WebPage> = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Products of Bangladesh",
+
+  url: "https://productsofbangladesh.com/",
+  description:
+    "Products of Bangladesh connects global sellers and brands with top manufacturers and suppliers from bangladesh, specializing in sourcing high-quality products made in Bangladesh for seamless sourcing experience.",
+
+  isPartOf: {
+    "@type": "WebSite",
+    name: "Products of Bangladesh",
+    url: "https://productsofbangladesh.com/",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Products of Bangladesh",
+    url: "https://productsofbangladesh.com/",
+    legalName: "Products of Bangladesh",
+    // sameAs: ["https://www.facebook.com/thirdbracket.co.uk"],
+  },
+};
+
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
@@ -15,6 +41,17 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://productsofbangladesh.com/",
   },
+
+  keywords: [
+    "products of bangladesh",
+    "made in bangladesh",
+    "sourcing products",
+    "bangladesh suppliers",
+    "bangladesh manufacturers",
+    "bangladesh sellers",
+    "bangladesh brands",
+    "made in bangladesh products",
+  ],
 
   description:
     "Products of Bangladesh connects global sellers and brands with top manufacturers and suppliers from bangladesh, specializing in sourcing high-quality products made in Bangladesh for seamless sourcing experience.",
@@ -51,6 +88,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Implements Dark Theme functionality */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+
+        <ThemeModeScript />
+      </head>
       <body className={`${inter.className} antialiased`}>
         <HeaderNavigation />
         {children}
